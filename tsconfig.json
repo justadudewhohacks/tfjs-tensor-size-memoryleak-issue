@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    //"allowUnreachableCode": true,
+    //"noUnusedLocals": false,
+    //"noUnusedParameters": false,
+
+
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "declaration": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictNullChecks": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "outDir": "./",
+    "baseUrl": ".",
+    "lib": ["es2015", "dom"],
+    "typeRoots": [
+      "typings",
+      "node_modules/@types"
+    ]
+  },
+  "formatCodeOptions": {
+    "indentSize": 2,
+    "tabSize": 2
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist"
+  ],
+  "include": [
+    "./index.ts"
+  ]
+}
